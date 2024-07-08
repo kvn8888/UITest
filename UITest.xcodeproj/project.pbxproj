@@ -16,6 +16,8 @@
 		0EECBDE32C3B684100862F70 /* UITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECBDE22C3B684100862F70 /* UITestTests.swift */; };
 		0EECBDED2C3B684100862F70 /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECBDEC2C3B684100862F70 /* UITestUITests.swift */; };
 		0EECBDEF2C3B684100862F70 /* UITestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECBDEE2C3B684100862F70 /* UITestUITestsLaunchTests.swift */; };
+		0EECBDFE2C3B90FC00862F70 /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECBDFD2C3B90FC00862F70 /* ChatModels.swift */; };
+		0EECBE002C3B914100862F70 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECBDFF2C3B914100862F70 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0EECBDE82C3B684100862F70 /* UITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EECBDEC2C3B684100862F70 /* UITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITests.swift; sourceTree = "<group>"; };
 		0EECBDEE2C3B684100862F70 /* UITestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EECBDFD2C3B90FC00862F70 /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
+		0EECBDFF2C3B914100862F70 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				0EECBDCB2C3B683F00862F70 /* UITestApp.swift */,
 				0EECBDCD2C3B683F00862F70 /* Persistence.swift */,
 				0EECBDD22C3B683F00862F70 /* ContentView.swift */,
+				0EECBDFD2C3B90FC00862F70 /* ChatModels.swift */,
+				0EECBDFF2C3B914100862F70 /* NetworkManager.swift */,
 				0EECBDD42C3B684100862F70 /* Assets.xcassets */,
 				0EECBDD62C3B684100862F70 /* UITest.entitlements */,
 				0EECBDCF2C3B683F00862F70 /* UITest.xcdatamodeld */,
@@ -265,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EECBE002C3B914100862F70 /* NetworkManager.swift in Sources */,
 				0EECBDCC2C3B683F00862F70 /* UITestApp.swift in Sources */,
+				0EECBDFE2C3B90FC00862F70 /* ChatModels.swift in Sources */,
 				0EECBDCE2C3B683F00862F70 /* Persistence.swift in Sources */,
 				0EECBDD32C3B683F00862F70 /* ContentView.swift in Sources */,
 				0EECBDD12C3B683F00862F70 /* UITest.xcdatamodeld in Sources */,
